@@ -1,0 +1,10 @@
+create database techbros;
+show databases;
+use techbros;
+drop database techbros;
+use techbros;
+create table PWDS(ID int not null, Sname varchar(255) not null, Age int not null, Gender varchar(10) not null, Slevel varchar(25) not null, Phonenumber varchar(45) not null, YOS varchar(45) not null);
+alter table PWDS add column location varchar(255) not null;
+desc PWDS;
+alter table PWDS modify YOS varchar(50) null;
+desc pwds;
